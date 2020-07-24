@@ -44,3 +44,5 @@ Q
 !ch6/learn-express/views/error.pug,9/4/94020e3153129411e9ffd4187d845a79e9b14fa0
 Q
 !ch6/learn-express/views/index.pug,2/2/2261cd673a937f7063845c4bb86d8c2aee849354
+R
+"ch6/learn-express/views/layout.pug,7/a/7a785933c0377327b29fabb7b4102f7a018e290b

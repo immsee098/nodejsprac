@@ -58,6 +58,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
+// 위의 라우터 요청들을 전부 처리하지 못했을 때 떨어지는 부분
 app.use(function(req, res, next) {
   next(createError(404));
 });
