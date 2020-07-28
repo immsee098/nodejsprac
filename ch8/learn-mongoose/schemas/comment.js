@@ -14,6 +14,9 @@ const commentSchema = new Schema({
     },
     createdAt: {
         type: Date,
+
+
+
         default: Date.now,
     },
 });
