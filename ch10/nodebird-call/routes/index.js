@@ -25,8 +25,12 @@ const request = async (req, api) =>{
     }
 };
 
-
 router.get('/mypost', async (req, res, next)=>{
+    try{
+        
+    } catch (error) {
+        
+    }
 
 })
 
