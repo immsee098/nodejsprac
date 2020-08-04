@@ -144,3 +144,29 @@ K
 ch9/nodebird/routes/user.js,5/3/53b2dba3cf4c4df5fb639499d81c400aa9eee3d7
 K
 ch9/nodebird/routes/post.js,c/6/c63527d75e6db8fa6a342f138c9444b4f7755ab9
+N
+ch10/nodebird-api/package.json,e/a/eaa9f6bbe0e29416afc475f5eeb01eb5ac7a8870
+S
+#ch10/nodebird-api/package-lock.json,6/e/6e0bd989f76221aa9839dd50373f55120a4c768f
+T
+$ch10/nodebird-api/config/config.json,9/c/9cf52254811233adc7a9580d17e6f87060b01860
+S
+#ch10/nodebird-api/passport/index.js,8/5/85551a97aea3d2bcf68b71a6009c0029b6517c98
+F
+ch10/nodebird-api/.env,7/d/7d0d800e77e05986d525200cbb0f421e88404d2c
+P
+ ch10/nodebird-api/routes/auth.js,4/4/44687c8407d4d3f38414c3c3bd7a1781e79d06d9
+P
+ ch10/nodebird-api/models/post.js,0/8/08ce5ffd82a8964048a40b14e5605ea6a53d69d5
+H
+ch10/nodebird-api/app.js,9/4/9456ab2970417750bade374b9b134ac9586a4cba
+R
+"ch10/nodebird-api/models/domain.js,f/c/fc260901e37e58942674dabe2430e0c1280f5425
+Q
+!ch10/nodebird-api/views/login.pug,1/4/14ca0aa012b14c5cb877f2870ec70aa3b096d848
+Q
+!ch10/nodebird-api/models/index.js,e/7/e7ba1933fcdfa0840d3125e0234c0c7ee469e2e4
+Q
+!ch10/nodebird-api/views/error.pug,f/7/f7ce3da6c6ffc8536c25e3d820266044a037d66e
+Q
+!ch10/nodebird-api/routes/index.js,3/0/308916002c8e44a6f2e88535b1d9658a44b5ce4d
