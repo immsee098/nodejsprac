@@ -1,15 +1,17 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
 
-const { verifyToken } = require('./middlewares');
+const { verifyToken, deprecated } = require('./middlewares');
 const { Domain, User, Post, Hashtag } = require('../models');
 
 const router = express.Router();
 
+router.use(deprecated);
+
 router.post('/token', async (req, res) => {
     const { clientSecret } = req.body;
     try {
-        const domain = await Domain.find({
+        const domain = await Domain.findOne({
             where: { clientSecret },
             include: {
                 model: User,
@@ -26,7 +28,7 @@ router.post('/token', async (req, res) => {
             id: domain.user.id,
             nick: domain.user.nick,
         }, process.env.JWT_SECRET, {
-            expiresIn: '1m', // 1분
+            expiresIn: '10m', // 1분
             issuer: 'nodebird',
         });
         return res.json({
@@ -89,4 +91,3 @@ router.get('/posts/hashtag/:title', verifyToken, async (req, res) => {
 });
 
 module.exports = router;
-
