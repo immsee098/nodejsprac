@@ -8,9 +8,13 @@ module.exports = (server, app, sessionMiddleware) => {
     const room = io.of('/room');
     const chat = io.of('/chat');
 
-    //웹 소켓 연결시마다 실행
     io.use((socket, next) => {
-        sessionMiddleware(socket.request, socket.request.res, next);
+
+        console.log("##################### ###################")
+        console.log('socket.request.res', socket.request.res)
+        // 기존대로 하면 socket.request 안의 res를 인식하지 못함
+        // sessionMiddleware(socket.request, socket.request.res, next);
+        sessionMiddleware( socket.request, {}, next );
     });
 
     room.on('connection', (socket) => {

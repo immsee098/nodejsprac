@@ -204,3 +204,33 @@ M
 ch11/gif-chat/views/index.pug,f/b/fbac67cd0a462aac526a7042fbb84a8198ba0287
 G
 ch11/gif-chat/socket.js,d/e/de3bba3f8732a8ab5cad06c57aecd783396f1c5b
+K
+ch11/gif-chat2/package.json,0/c/0c0288b9dcbf1ac6e9085374a3676086900b934e
+N
+ch11/gif-chat2/views/error.pug,f/4/f4352b79ae1921f2d4f4a0135d7351c88f585a8c
+N
+ch11/gif-chat2/public/main.css,e/d/ed84ebf7eba5fe6f18a4d9525fa3b156d2cf856f
+N
+ch11/gif-chat2/schemas/room.js,1/8/18e79e8894f71b4c8dad9d5bdcf118ad8226231e
+M
+ch11/gif-chat2/views/room.pug,0/4/049ac0219d8f54eeb29d5e274367af002a34b840
+M
+ch11/gif-chat2/views/main.pug,b/a/baa10717da060622a6ca36f26686325bf9be7dbc
+C
+ch11/gif-chat2/.env,8/d/8d24a271d8ffe8126488b9272c8e4469ed7f3381
+M
+ch11/gif-chat2/views/chat.pug,a/4/a442dad9284b1ad178617c1c437cc418aecd80c2
+N
+ch11/gif-chat2/routes/index.js,2/d/2dc771b549746e8369abe827352186cf84ed08d8
+E
+ch11/gif-chat2/app.js,6/9/69f8b8411d8a81b65b2a8a79f43cfd1fd56a525b
+H
+ch11/gif-chat2/socket.js,e/6/e603015ae9790c83a3c14c6131c85a6ce922706a
+N
+ch11/gif-chat2/views/index.pug,b/d/bde9be7e30beded664419aafdbd4902db24e515f
+O
+ch11/gif-chat2/views/layout.pug,c/a/ca35f5cbe30d60da64ae0101bfb6bb09fa569940
+O
+ch11/gif-chat2/schemas/index.js,e/4/e44e625bdec959b9b600662eedaf7928e65cb1af
+N
+ch11/gif-chat2/schemas/chat.js,1/0/10c596422683a4259b9e5c316685be55579c1a10
