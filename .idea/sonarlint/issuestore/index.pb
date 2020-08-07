@@ -288,3 +288,25 @@ N
 ch12/nodenAuction/package.json,9/7/97c4377ca8b20ab05bdb0536ee2e66261d2f2207
 L
 ch13/node-place/package.json,a/5/a58d7aa0540eee4a87c77efa551ed374d6c4b4ac
+D
+ch13/node-place/.env,a/6/a69e205e9fe385a18396129728556f5cbc088b86
+F
+ch13/node-place/app.js,3/b/3b23c0d119f611d17213a6498238dc581be95f0e
+P
+ ch13/node-place/schemas/index.js,3/f/3f5ea6c257f4af57220a0f1e22b0d0701ac073f5
+R
+"ch13/node-place/schemas/history.js,0/2/02f3ac0897c484b6012fccdfc89e1464324c077c
+S
+#ch13/node-place/schemas/favorite.js,7/c/7c7c8f4c5adaae8d8d4fb3443f0cc6a551abb105
+I
+ch14/node-cli/template.js,1/d/1d0f2d14f6a6c7439e3726c97d14a7176c107a54
+J
+ch14/node-cli/package.json,6/6/66a8bc31ace6316c40d33e1be06dd669b29aed14
+H
+ch14/node-cli/command.js,5/5/5514d12329c4b9ff59f6f363f0cb6e879fa73989
+O
+ch14/node-cli/package-lock.json,8/f/8f599df0e1b9d9e2f3023bf1b9723a79e0fa02bf
+F
+ch14/node-cli/index.js,e/7/e7b82e1cacf64b3644b3c603f40c7bd5e9d1b2ca
+M
+ch9/nodebird/config/config.js,2/c/2ca90eb7ee96baa9d83ad519b9585c64152cb87a

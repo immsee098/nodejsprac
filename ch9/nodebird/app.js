@@ -23,7 +23,12 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.set('port', process.env.PORT || 8001); //일반 express init시 이 부분은 bin/www에 포함되어 나중에 app에 set된다
 
-app.use(morgan('dev'));
+if(process.env.NODE_DEV==='production'){
+    app.use(morgan('combined'))
+} else {
+    app.use(morgan('dev'));
+}
+
 //static을 두 개 쓸 수도 있다는 것
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/img', express.static(path.join(__dirname, 'uploads')));
@@ -31,7 +36,8 @@ app.use('/img', express.static(path.join(__dirname, 'uploads')));
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.use(cookieParser(process.env.COOKIE_SECRET));
-app.use(session({
+
+const sessionOption = {
     resave: false,
     saveUninitialized: false,
     secret: process.env.COOKIE_SECRET,
@@ -39,7 +45,26 @@ app.use(session({
         httpOnly: true,
         secure: false,
     },
-}));
+};
+
+if(process.env.NODE_ENV === 'production') {
+    sessionOption.proxy =true;
+    //배포 환경 시 쿠키 시큐어 적용 -> https 사용 시 or 로드밸런싱 위해 nginx같은 거 썼을 때는 꼭 적용 필요
+    //sessionOption.cookie.secure=true;
+}
+
+app.use(session(sessionOption));
+
+// // 위의 sessionOption 부분이 이 부분을 대신함. 설정 후 세션에 설정
+// app.use(session({
+//     resave: false,
+//     saveUninitialized: false,
+//     secret: process.env.COOKIE_SECRET,
+//     cookie: {
+//         httpOnly: true,
+//         secure: false,
+//     },
+// }));
 app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
