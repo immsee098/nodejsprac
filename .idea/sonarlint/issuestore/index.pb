@@ -234,3 +234,57 @@ O
 ch11/gif-chat2/schemas/index.js,e/4/e44e625bdec959b9b600662eedaf7928e65cb1af
 N
 ch11/gif-chat2/schemas/chat.js,1/0/10c596422683a4259b9e5c316685be55579c1a10
+P
+ ch11/gif-chat2/package-lock.json,7/5/75cb3b63b22938581a48ccd6bbe3ee7cc59d362d
+7
+pipe.js,e/d/ed5b73246c72be0aa1321c7f463fe521d275a010
+T
+$ch12/nodenAuction/config/config.json,c/0/c0a89c7f737767cc81c9202ce5e4a5cd54bd1a34
+F
+ch12/nodenAuction/.env,9/7/9723cf4391b6aa70f824e12738ba1afa25a7f241
+Q
+!ch12/nodenAuction/views/error.pug,c/0/c095a146fac76dc3369e344a6aea1126821bb36c
+P
+ ch12/nodenAuction/views/join.pug,9/0/9014dc89f551a0af47e2e6fa84a3377ebc1bef16
+P
+ ch12/nodenAuction/views/good.pug,7/f/7fd1297988b419b7ccce6a20ae5b51d477dd3254
+Q
+!ch12/nodenAuction/public/main.css,5/6/568fd7334abdf22f94b82e495e0e486e20cef0e1
+W
+'ch12/nodenAuction/routes/middlewares.js,5/d/5d2a868fc07f201d7c318352454b72082a3ca86c
+P
+ ch12/nodenAuction/models/good.js,3/c/3c04f23df730b678ca3f00ac5631ee118daf77bd
+P
+ ch12/nodenAuction/models/user.js,e/e/eeb68881de4a619bd11357a5fca17f01fa190c0b
+S
+#ch12/nodenAuction/models/auction.js,1/4/14755d7d3c993f00da13e4d068d1ca164626dbd1
+P
+ ch12/nodenAuction/routes/auth.js,5/8/588aed2983258cda9da420c7de3f0af5d6fbd593
+[
++ch12/nodenAuction/passport/localStrategy.js,3/d/3dbd389144c761779cac1947061dfc5cfc3ab4eb
+S
+#ch12/nodenAuction/passport/index.js,2/b/2b9485b836d1ab247946f9f1ea9b8fb11c4b346c
+H
+ch12/nodenAuction/sse.js,0/3/03abeb1c31b8e69cee8a516e214ae69f6de0acea
+S
+#ch12/nodenAuction/views/auction.pug,1/a/1a3842b08871eebe78a633d9a57bd94498a5dae1
+Q
+!ch12/nodenAuction/checkAuction.js,3/7/371fe9aec098223912c11039bbd7f361208d9ec4
+P
+ ch12/nodenAuction/views/list.pug,1/a/1a5874344810d459d0d76427ebef1ac7b195c63d
+R
+"ch12/nodenAuction/views/layout.pug,d/8/d871e34af82939c27efb83de0c5b55bec8103c76
+Q
+!ch12/nodenAuction/routes/index.js,e/e/ee121caad7b30ef656874994ac6e392d9ef2dc56
+P
+ ch12/nodenAuction/views/main.pug,9/e/9ee9baf87baf0d33eb98b7578930edf37992875d
+K
+ch12/nodenAuction/socket.js,6/f/6f6360111528bdbe6f32fc453524cebac02dabb1
+Q
+!ch12/nodenAuction/models/index.js,9/e/9ee731396f456132e88836cec467fac965a68725
+H
+ch12/nodenAuction/app.js,2/a/2a3e2ecdef3ad5f32bfbe8759c78b000312a1f0b
+N
+ch12/nodenAuction/package.json,9/7/97c4377ca8b20ab05bdb0536ee2e66261d2f2207
+L
+ch13/node-place/package.json,a/5/a58d7aa0540eee4a87c77efa551ed374d6c4b4ac
